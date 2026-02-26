@@ -185,15 +185,10 @@ extension PhoneBookViewController {
             title: "적용",
             style: .plain,
             target: self,
-            action: #selector(buttonTapped)
+            action: #selector(applyTapped)
         )
 
     }
-}
-
-@objc func buttonTapped() {
-
-    navigationController?.popViewController(animated: true)
 }
 
 
